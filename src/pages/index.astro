@@ -1,13 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
-import InventoryOverview from '../components/InventoryOverview.jsx'
+import InventoryOverview from '../components/InventoryOverview.jsx';
+import Forecast from "../components/Forecast.jsx";
 ---
 
 <Layout title="Dashboard">
 	<Navbar/>
 	<main class="max-w-[90%]">
 		<InventoryOverview client:load/>
+		<Forecast client:load/>
 	</main>
 </Layout>
 

@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Fish",
+        "category":"Food",
+        "uta":200,
+        "link":"/"
+    },
+    {
+        "name":"Coke",
+        "category":"Drinks",
+        "uta":1000,
+        "link":"/"
+    }
+]
