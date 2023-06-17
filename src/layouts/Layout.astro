@@ -15,9 +15,13 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		
+		<!-- Flowbite CDN -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
 	</head>
 	<body>
 		<slot />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 	</body>
 </html>
 <style is:global>
@@ -27,7 +31,7 @@ const { title } = Astro.props;
 	}
 	html {
 		font-family: system-ui, sans-serif;
-		background-color: #F6F6F6;
+		background-color: #F4EFFA;
 	}
 	code {
 		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,

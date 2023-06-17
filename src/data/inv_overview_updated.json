@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Chicken",
+        "category":"Food",
+        "stock":120,
+        "link":"/"
+    },
+    {
+        "name":"Fish",
+        "category":"Food",
+        "stock":22,
+        "link":"/"
+    },
+    {
+        "name":"Coke",
+        "category":"Drinks",
+        "stock":24,
+        "link":"/"
+    },
+    {
+        "name":"Sprite",
+        "category":"Drinks",
+        "stock":144,
+        "link":"/"
+    }
+]
